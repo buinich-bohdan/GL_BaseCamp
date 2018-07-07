@@ -1,0 +1,8 @@
+#!/bin/bash
+for i in {1..500000..24999}
+do
+	
+	echo "./sort1" "$i" "&&"
+    
+done
+

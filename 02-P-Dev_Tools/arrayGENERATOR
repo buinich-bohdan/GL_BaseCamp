@@ -1,0 +1,31 @@
+#!/bin/bash
+declare -A matrix
+num_rows=10
+num_columns=10
+
+for ((i=1;i<=num_rows;i++)) do
+    for ((j=1;j<=num_columns;j++)) do
+        matrix[$i,$j]=$(( ( RANDOM % -2)  + -2))
+    done
+done
+
+f2=" %9s"
+echo
+
+for ((j=1;j<=num_columns;j++)) do
+    printf "{"
+    for ((i=1;i<=num_rows;i++)) do
+        
+        printf "$f2" ${matrix[$i,$j]}
+        if (( $i != $num_rows ))
+        then printf ","
+    fi
+    done
+    if (( $j != $num_columns ))
+        then printf "},"
+    else printf "}"
+    fi
+
+    echo
+
+done
