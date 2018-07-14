@@ -1,5 +1,6 @@
 # Lee algorithm
-![N](https://lh5.googleusercontent.com/p92JgP1VVVExDLF9_ahisG8Tj8OPfc1mt5DlsNRnZzAdduYlTXd2kjjIkfCKWpiO-opNcrVxYJqXp-kvLEcX=w1366-h632)
+![N](https://image.ibb.co/kMgG2T/Screenshot_from_2018_07_07_03_31_05.png)
+
 ### TechAlgorithm
 1) Initialization
   - Select start point, mark with 0
@@ -29,5 +30,5 @@ $ arrayGENERATOR
 ### Resultant array to be inserted into the program and set the start point (0) and end point (-3)
 
 
-![N](https://lh3.googleusercontent.com/CaI5xRp0qN-ByOZDJm_V1fGoTcH5_7JoQc0RqyPQGB9lAnNulms5wYE9HeAn5wAsOR6r3ag6_IOJE7X7hQiYy4Uo_bo7f4wBe9lVRnNl_Who-brMwNZymytYnR7BwJZUkxXsETHfOobQMLh9I9ceCtIhm3zTk1aWzXWc2HLEkHdKyeVLMirmKIGlxIeFh5GwpM7hNUojF0BEfXKrgZAeyHOFjqrKz7MHqDnAChe4bHPtnF649_wdeHvsVKrNZNzalE6BcXBlU4sMb6X1M6aAOfWtMzAPggwualseIe21e6yIAqC8_6Lu9tXa7vmx3E2cefoh1thZj364QF6Hn3A5ntS2TixNeIMmAOThEGG-pxtpEX6KU0EFz5C49k5tuxVfosx2o6LS1srQEhRsn_Omp9KxdWfEVqsM8UAWzbuBaaDDSLht2T2tS7PxZ0xsal3eCeJXQHY-LK7eSr95nQp6bLDGksBs7AB3QZoK9K5jCZ8kuSutHMYunKCakhz6dDzkwj89iXpIzRNPR61HtbvXzj1mBQh8r-z5ybskehgQ4JygwoBh0E7Z0J-gCHYn7upTRbL5oBSJtm_ymK4dFzylhVgPElnjohO5RzrpUA=w933-h183-no)
+![N](https://image.ibb.co/g8b5wo/Screenshot_from_2018_07_07_03_40_04.png)
 
