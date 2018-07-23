@@ -78,24 +78,17 @@ uint8_t getpwm()
 
 int main()
 {
-
     DDRB |= 1 << LED_PIN;
     cycle_length = 1000000 / frequency; //length of one pwm cycle in microseconds
 
     while (1) {
 
         uint16_t val = getpwm(); //get the pwm value
-
         v_out = (uint16_t)val * 255L / 15L; //gets the pot value from 0-1024 and turns it into a value from 0-255
-
         duty_cycle = v_out / 255; // percentage of power being drawn as decimal.
-
         time_on = duty_cycle * cycle_length; // work out the time it should be on
-
         time_off = cycle_length - time_on; // work out the time it should be off
-
         if (time_on > 0)
-
         {
             PORTB |= 1 << LED_PIN;
             for (int i = 0; i < time_on; i++)
