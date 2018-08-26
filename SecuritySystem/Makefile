@@ -1,10 +1,10 @@
-#Контроллер, установленный на плате. Может быть другим, например atmega328 
+# Controller installed on the board, for example atmega328
 DEVICE     = atmega328
 
-#Тактовая частота 16 МГц 
+# The clock frequency
 CLOCK      = 16000000
 
-#Команда запуска avrdude. Ее нужно скопировать из Arduino IDE.
+# The command to run avrdude. It needs to be copied from the Arduino IDE.
 AVRDUDE = /opt/arduino-1.8.5/hardware/tools/avr/bin/avrdude -C/opt/arduino-1.8.5/hardware/tools/avr/etc/avrdude.conf -v -patmega328p -carduino -P/dev/ttyACM0 -b115200 -D
 OBJECTS    = main.o
 
