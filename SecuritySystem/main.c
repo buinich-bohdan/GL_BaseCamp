@@ -135,7 +135,7 @@ void dt_sendbyte(unsigned char bt)
     {
         if ((bt & (1 << i)) == 1 << i) //send 1
             dt_sendbit(1);
-        else //посылаем 0
+        else //send 0
             dt_sendbit(0);
     }
 }
